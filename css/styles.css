@@ -1,0 +1,310 @@
+/*Alphabetically organized*/
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN PAGE */
+.all-grid {
+    margin: auto;
+    max-width: 960px;
+    padding: 1rem 2rem;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.6;
+    
+}
+
+.contact {
+    margin-top: 2rem;
+}
+
+.contact-form {
+    background: lightgray;
+    padding: 3rem;
+    border-radius: 50px;
+    border: 2px solid #333;
+}
+
+.contact-grid {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 35px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.form-button {
+    background: #333;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 100px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background: #4a4a4a;
+    transform: scale(1.2);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-input {
+    max-width: 400px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+
+.form-label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;            /* space between options */
+    margin-top: 5px;
+}
+
+.form-radio-group input[type="radio"] {
+    margin-right: 8px;
+}
+
+.form-radio-group label {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form-submit {
+    text-align: center;
+}
+
+.form-textarea {
+    max-width: 600px;
+    height: 150px;
+    resize: vertical;
+}
+
+/* GALLERY */
+
+
+/* Gallery Styles */
+.gallery {
+    margin-top: 2rem;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 32px;
+}
+
+.gallery-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.main-header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #4c4949; 
+}
+
+.main-nav a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    background: #555; 
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem; 
+}
+
+.main-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: absolute;
+    top: 200px;
+    left: 380px;
+}
+
+.main-photo img {
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    text-align: center;
+
+}
+
+.map h2{
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.nav{
+
+    margin: auto;
+    max-width: 960px;
+    padding: 1rem 2rem;
+
+}
+
+.photo-text {
+    max-width: 400px;
+}
+
+.photo-text h2 {
+    font-size: 33px;
+}
+
+.photo-text p {
+    font-size: 18px;
+}
+
+.project-description {
+    padding: 1.5rem;
+}
+
+.project-description h3 {
+    font-size: 26px;
+    margin-bottom: 0.75rem;
+}
+
+.project-description p {
+    font-size: 18px;
+    color: #666;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+/* Skills Page Styles */
+.skills {
+    margin-top: 2rem;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 32px;
+}
+
+.skills-grid {
+    margin: auto;
+    max-width: 960px;
+    padding: 1rem 2rem;
+}
+
+.skills-table {
+    width: 100%;
+    background: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skills-table td {
+    font-size: 20px;
+    color: #333;
+}
+
+.skills-table th {
+    font-size: 22px;
+    background: #333;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills-table th,
+.skills-table td {
+    padding: 1rem;
+    border: 1.5px solid #2a2525;
+    text-align: center;
+}
+
+.skills-table tr:nth-child(even) {
+    background: #B0B0B0;
+}
+
+/*STYLES FOR FORM*/
+
+table ul {
+    padding-left: 1em; 
+}

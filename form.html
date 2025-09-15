@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal portfolio Vlad Miloserdov">
+    <meta name="author" content="Vlad Miloserdov">
+
+    <title>Vlad Miloserdov | Contact Me</title>
+
+    <!-- This is for the font that I want to use.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@555&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="nav">
+            <h1>Vlad Miloserdov</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="table.html">Skills</a></li>
+                    <li><a href="form.html" class="active">Contact</a></li>
+                    <li><a href="map.html">Location</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- This is the section for the main contact form. -->
+    <section class="contact">
+        <div class="contact-grid">
+            <h2>Contact Me</h2>
+            <form method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" name="name" class="form-input" required/>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-input" required/>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="form-label">Reason for Contact:</label>
+                    <div class="form-radio-group">
+                      <label><input type="radio" name="reason" value="project" /> Working on a project together</label>
+                      <label><input type="radio" name="reason" value="network" /> Connect / Networking</label>
+                      <label><input type="radio" name="reason" value="question" /> Ask a question</label>
+                      <label><input type="radio" name="reason" value="feedback" /> Provide feedback</label>
+                      <label><input type="radio" name="reason" value="other" /> Other</label>
+                    </div>
+                  </div>
+
+
+
+                <div class="form-group">
+                    <label for="reason" class="form-label">More detail: </label>
+                    <textarea id="reason" name="reason" class="form-textarea" required></textarea>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" value="Submit" id="submit" class="form-button" required />
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>Vlad Miloserdov | <a href="mailto:vmiloser@andrew.cmu.edu">vmiloser@andrew.cmu.edu</a></p>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
